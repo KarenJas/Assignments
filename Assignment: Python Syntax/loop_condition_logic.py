@@ -1,4 +1,4 @@
-#5. Loop Condition Logic
+'''5. Loop Condition Logic'''
     #Task 1: Loop Condition Exploration
 number = 0
 # Because the loop condition is set to always be true the loop will never end

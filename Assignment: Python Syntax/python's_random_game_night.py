@@ -1,4 +1,4 @@
-#7. Python's Random Game Night
+'''7. Python's Random Game Night'''
     #Task 1: Dice Rolling Simulator
 import random
 # Initialize a dictionary to keep track of dice roll frequencies

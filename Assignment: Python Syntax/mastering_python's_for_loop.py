@@ -1,4 +1,4 @@
-#3. Mastering Python's For Loop
+'''3. Mastering Python's For Loop'''
     #Task 1: Code Correction
 import random
 

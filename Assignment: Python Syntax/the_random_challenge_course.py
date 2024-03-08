@@ -1,4 +1,4 @@
-#8. The Random Challenge Course
+'''8. The Random Challenge Course'''
     #Task 1: The Guessing Game
 import random
 
