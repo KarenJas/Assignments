@@ -1,4 +1,4 @@
-#6. The Art of Loop Control
+'''6. The Art of Loop Control'''
     #Task 1: Using else with while
 fruits = ["apple", "banana", "orange", "grape", "watermelon", "kiwi", "strawberry", "mango", "pineapple", "pear"]
 # The loop will first check to see if the condition is true 
