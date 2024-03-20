@@ -1,8 +1,5 @@
 '''1. The Calculator App'''
 
-#division
-#handdle division by zero errors and other errors
-
 operation_choice = input("Pick an peration (addition, subtraction, multiplication, division): ")
 number_one = float(input("First number: "))
 number_two = float(input("Second number: "))
