@@ -1,9 +1,5 @@
 '''2. The Shopping List Maker'''
 
-#function1 : user add items to a list 
-#^^^ remove items as well
-#function2 : prints out the entire list (formatted)
-
 list = []
 
 #Task 1: Write a function that lets the user add items to a list.
