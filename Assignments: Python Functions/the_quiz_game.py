@@ -8,6 +8,7 @@ harry_styles_answers = ["Watermelon Sugar","Sign of the Times","Adore You","Gold
 kali_uchis_answers = ["Telepatía","After the Storm (feat. Tyler, The Creator & Bootsy Collins)","Isolation","Dead to Me","Falling"]
 bad_bunny_answers = ["Dákiti (with Jhay Cortez)","Safaera (with Jowell & Randy and Ñengo Flow)","Yo Perreo Sola","La Noche de Anoche (with Rosalía)","Sale el Sol"]
 score = 0
+
 #Task 2: Write a function that quizzes the user and takes their answers.
 def quiz():
     global score
