@@ -54,4 +54,4 @@ def quiz():
         print(f"You got {score}/5. Better luck next time :( ")
 
 #Test
-#quiz()
+quiz()

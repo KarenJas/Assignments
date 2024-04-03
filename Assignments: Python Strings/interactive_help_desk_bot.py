@@ -20,6 +20,6 @@ elif "contact support" in text_input:
     user_data.append(contact_support)
 
 
-
+print(user_data)
 
 
