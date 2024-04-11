@@ -1,60 +1,34 @@
 '''2. The Recipe Ratio Adjuster'''
 
-spaghetti_sarbonara = [
-    "12 ounces (340g) spaghetti",
-    "4 large eggs",
-    "1 cup (100g) grated Parmesan cheese",
-    "8 slices of bacon or pancetta, chopped",
-    "3 cloves garlic, minced",
-    "Salt and pepper to taste",
-    "Chopped fresh parsley (optional, for garnish)"
-]
-
-for i in range(len(spaghetti_sarbonara)):
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 #Task 1: Start
-def recipe_converter(original_servings = (input('Number of servings the recipe is originally for : '))):
+try:
+    original_servings= float(input("Number of servings in original recipe: "))
+    desired_servings = float(input("How many servings do you wish to make: "))
+except ValueError:
+    print("Please input a proper value")
+
+#Task 2: Quantity Calculation
+try:
+    adjustment_factor = desired_servings / original_servings
+    print(f"Adjusted recipe quantities: {adjustment_factor}")
+except ZeroDivisionError:
+    print("Cant devide by zero. Please input a proper value")
+finally:
+    print("Enjoy Your Cooking! :)")
+
+
+
+
+'''class unit_converter:
+    def __init__(self, value, unit):
+        self.value = value
+        self.unit = unit
     
-    try:
+    def tablespoon_to_teacpoons(self, target_unit):
+        conversion_factors = {'tablespoon': 1, 'teaspoon': 3} 
+        return self.value * conversion_factors[self.unit] / conversion_factors[target_unit]
 
-    except ValueError:
-        print('oops you have a value error :(  ')
-        original_servings = float(input('Lets try again. \nNumber of servings the recipe is originally for : '))
-
-    #desired_servings = float(input('How many servings do you wish to make: '))
-
-
-
+'''
 
 
 
